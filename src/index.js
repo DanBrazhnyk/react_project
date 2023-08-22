@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Main from './Pages/main/Main';
 import "./css/style.css"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import AirMaxPro from './Pages/shoes/airMaxPro';
 import AirForce from './Pages/shoes/Airforce';
 import AirMax from './Pages/shoes/Airmax';
@@ -13,7 +13,7 @@ import Running from './Pages/shoes/Running';
 import Allwhyte from './Pages/shoes/Allwhyte';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
     <Route path="/" element={<Main />} /> 
     <Route path="/AirMax" element={<AirMax />}/>
@@ -25,6 +25,6 @@ root.render(
     <Route path="/Running" element={<Running />}/>  
     <Route path="/Allwhyte" element={<Allwhyte />}/>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
 );
 
