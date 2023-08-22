@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react_project/static/css/main.0f77f8b4.css",
+    "main.js": "/react_project/static/js/main.bef2ba21.js",
+    "static/media/jordan.png": "/react_project/static/media/jordan.ff45d639d7db77568c72.png",
+    "static/media/airmaxPro1.png": "/react_project/static/media/airmaxPro1.2441546dbae2254c4a7e.png",
+    "static/media/airforce.png": "/react_project/static/media/airforce.d19e1deee12646a9eb41.png",
+    "static/media/airmax.png": "/react_project/static/media/airmax.9131a143fb1bf18cebde.png",
+    "static/media/running.png": "/react_project/static/media/running.7c54b96cb15aca84815c.png",
+    "static/media/runningNewWhite.png": "/react_project/static/media/runningNewWhite.ffb2977aac174b1c1652.png",
+    "static/media/airmaxPro.png": "/react_project/static/media/airmaxPro.53cac34f864fc74cc128.png",
+    "static/media/airmaxOrange.png": "/react_project/static/media/airmaxOrange.3e6c20262e1093ddb156.png",
+    "static/media/runningNewBlack.png": "/react_project/static/media/runningNewBlack.ab27aaa37601a626f021.png",
+    "static/media/airforceNew.png": "/react_project/static/media/airforceNew.093438de1f886f727275.png",
+    "static/media/airmax4.png": "/react_project/static/media/airmax4.6aad1916114af338f3e4.png",
+    "static/media/airmaxNew.png": "/react_project/static/media/airmaxNew.51e03ceab04825ef9b7b.png",
+    "static/media/allwhyte.png": "/react_project/static/media/allwhyte.f30c9803457a738da679.png",
+    "static/media/airmax3.png": "/react_project/static/media/airmax3.3dba60e7b9c97cc2708c.png",
+    "index.html": "/react_project/index.html",
+    "main.0f77f8b4.css.map": "/react_project/static/css/main.0f77f8b4.css.map",
+    "main.bef2ba21.js.map": "/react_project/static/js/main.bef2ba21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f77f8b4.css",
+    "static/js/main.bef2ba21.js"
+  ]
+}
