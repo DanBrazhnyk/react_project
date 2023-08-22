@@ -1,17 +1,18 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
-const Kids =()=>{
+const NavButton =(props)=>{
     return(
         <Button
         style={{
           fontFamily: "Montserrat, sans-serif",
           fontWeight: "600",
-          color: "white",
-        marginLeft:"40px"
+          color: props.color,
+          marginLeft:props.marginLeft
         }}
+        onClick={props.onClick}
       >
-        Kids
+        {props.name}
       </Button>
     )
 }
-export default Kids
+export default NavButton

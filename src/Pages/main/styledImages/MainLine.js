@@ -1,5 +1,5 @@
 import * as React from "react";
-import { line1 } from "../importsImg/ImportsImg";
+import { line1 } from "../../importsImg/ImportsImg";
 const MainLine = () => {
   return (
     <img

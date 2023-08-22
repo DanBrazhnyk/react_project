@@ -1,15 +1,15 @@
 import * as React from "react";
-import { running } from "../importsImg/ImportsImg";
-const Running = () => {
+import { running } from "../../importsImg/ImportsImg";
+const Running = (props) => {
   return (
     <img
       src={running}
       alt="error"
       style={{
-        height: "118px",
-        width: "210px",
-        marginLeft: "8px",
-        marginTop: "25px",
+        height: props.height,
+        width: props.width,
+        marginLeft:props.marginLeft,
+        marginTop: props.marginTop,
       }}
     />
   );

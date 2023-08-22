@@ -1,35 +1,31 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
+
 import AvailableProducts from "../Typography/AvailableProducts";
-import AvailableMen from "./AvailableItems/AvailableMen";
-import AvailableWomen from "./AvailableItems/AvailableWomen";
-import AvailableKid from "./AvailableItems/AvailableKid";
-import AvailableNew from "./AvailableItems/AvailableNew";
-const AvailableProductsItems = () => {
+import { motion } from "framer-motion";
+const AvailableProductsItems = ({children}) => {
   return (
-    <Box
-      sx={{
+    <div
+      id="available"
+      style={{
         width: "100%",
         backgroundColor: "#E2E7F7",
         height: "770px",
         zIndex: -1,
-      }}
-    >
+      }}>
       <AvailableProducts />
-      <Box
-        sx={{
+      <motion.div
+        style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
           marginTop: "30px",
         }}
-      >
-        <AvailableMen />
-        <AvailableWomen />
-        <AvailableKid />
-        <AvailableNew />
-      </Box>
-    </Box>
+        initial={{ x: 1000 }}
+        whileInView={{ x: 0 }}
+        transition={{ type: "tween", duration: 0.8 }}>
+        {children}
+      </motion.div>
+    </div>
   );
 };
-export default AvailableProductsItems;
+export default React.memo(AvailableProductsItems);

@@ -1,6 +1,17 @@
 import * as React from "react";
-import { airmaxOrange } from "../importsImg/ImportsImg";
-const OrangeAirmax= () => {
-  return <img src={airmaxOrange} alt="error"style={{height: "118px",width: "210px",marginLeft: "8px",marginTop: "25px",}}/>;
+import { airmaxOrange } from "../../importsImg/ImportsImg";
+const OrangeAirmax = (props) => {
+  return (
+    <img
+      src={airmaxOrange}
+      alt="error"
+      style={{
+        height: props.height,
+        width: props.width,
+        marginLeft:props.marginLeft,
+        marginTop: props.marginTop,
+      }}
+    />
+  );
 };
 export default OrangeAirmax;

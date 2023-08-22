@@ -10,4 +10,4 @@ const DecriptionBrand = () => {
     </Box>
   );
 };
-export default DecriptionBrand;
+export default React.memo(DecriptionBrand);

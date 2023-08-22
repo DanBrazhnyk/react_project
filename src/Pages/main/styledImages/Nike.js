@@ -1,8 +1,8 @@
 import * as React from "react";
-import { nike } from "../importsImg/ImportsImg";
-const Nike = () => {
+import { nike } from "../../importsImg/ImportsImg";
+const Nike = (props) => {
   return (
-    <img style={{marginLeft:"68px", width: "60px", height: "21px" }} src={nike} alt="error" />
+    <img style={{marginLeft:props.marginLeft, width:props.width , height:props.height ,paddingTop:props.paddingTop}} src={nike} alt="error" />
   );
 };
 export default Nike;

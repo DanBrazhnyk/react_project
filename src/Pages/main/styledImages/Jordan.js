@@ -1,5 +1,5 @@
 import * as React from "react";
-import { jordan } from "../importsImg/ImportsImg";
+import { jordan } from "../../importsImg/ImportsImg";
 import zIndex from "@mui/material/styles/zIndex";
 export const Jordan = () => {
   return (

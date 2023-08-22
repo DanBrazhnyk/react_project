@@ -2,8 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import {OrangeAirmax} from  "../../importsStyledImages/importsStyledImages";
 import {KidsTypography} from "../../importsTypography/importsTypography";
-import ShopNow from "../../Buttons/ShopNow";
-const AvailableKid = () => {
+const AvailableKid = ({children}) => {
   return (
     <Box
     sx={{
@@ -15,9 +14,12 @@ const AvailableKid = () => {
       marginLeft:"33px"
     }}
   >
-    <OrangeAirmax/>
+    <OrangeAirmax  height="118px"
+        width="210px"
+        marginLeft="8px"
+        marginTop="25px"/>
     <KidsTypography/>
-    <ShopNow/>
+    {children}
     </Box>
   );
 };

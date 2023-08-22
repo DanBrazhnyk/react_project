@@ -2,8 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import {Airforce} from "../../importsStyledImages/importsStyledImages";
 import {WomenTypography} from "../../importsTypography/importsTypography";
-import ShopNow from "../../Buttons/ShopNow";
-const AvailableWomen = () => {
+const AvailableWomen = ({children}) => {
   return (
     <Box
     sx={{
@@ -15,9 +14,12 @@ const AvailableWomen = () => {
       marginLeft:"33px"
     }}
   >
-    <Airforce/>
+    <Airforce height= "118px"
+        width= "210px"
+        marginLeft= "8px"
+        marginTop= "25px"/>
     <WomenTypography/>
-    <ShopNow/>
+    {children}
     </Box>
   );
 };

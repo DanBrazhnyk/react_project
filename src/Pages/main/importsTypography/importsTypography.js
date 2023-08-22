@@ -9,6 +9,12 @@ import WomenTypography from "../Typography/WomenTypography"
 import KidsTypography from "../Typography/KidsTypography";
 import NewProducts from "../Typography/NewProducts";
 import AvailableProducts from "../Typography/AvailableProducts";
+import NameShoes from "../Typography/NameShoes";
+import ShoesPrice from "../Typography/ShoesPrice";
+import NewProductsTitle from "../Typography/NewProductsTitle";
+import OurStore from "../Typography/OurStore";
+import FooterTypography from "../Typography/FooterTypography";
+import Li from "../Typography/StyledLi"
 export{
     Brand,
     Color,
@@ -20,5 +26,11 @@ export{
     WomenTypography,
     KidsTypography,
     NewProducts,
-    AvailableProducts
+    AvailableProducts,
+    NameShoes,
+    ShoesPrice,
+    NewProductsTitle,
+    FooterTypography,
+    Li,
+    OurStore
 }

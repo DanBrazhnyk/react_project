@@ -1,7 +1,17 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-x:hidden ;
 }
 ::-webkit-scrollbar{
-display: none;
+    width: 10px;
 }
+::-webkit-scrollbar-track{
+    background: linear-gradient(rgb(4, 194, 143),rgb(0, 36, 128),rgb(170, 9, 181));
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(#642bff,#ff22e6);
+    border-radius: 20px;
+    width: 20px;
+}
+

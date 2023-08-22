@@ -1,6 +1,6 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
-const ShopNow =()=>{
+const ShopNow =({ onClick })=>{
     return(
         <Button
         sx={{
@@ -14,6 +14,7 @@ const ShopNow =()=>{
           top: "22px",
           left: "40px",
         }}
+        onClick={onClick}
       >
         Shop now
       </Button>

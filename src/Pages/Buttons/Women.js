@@ -1,6 +1,6 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
-const Women = () => {
+const Women = ({ onClick }) => {
   return (
     <Button
       style={{
@@ -9,6 +9,7 @@ const Women = () => {
         color: "white",
         marginLeft:"40px"
       }}
+      onClick={onClick }
     >
       Women
     </Button>

@@ -2,8 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import {Airmax} from "../../importsStyledImages/importsStyledImages";
 import {MenTypography} from "../../importsTypography/importsTypography";
-import ShopNow from "../../Buttons/ShopNow";
-const AvailableMen = () => {
+const AvailableMen = ({children}) => {
   return (
     <Box
     sx={{
@@ -14,9 +13,9 @@ const AvailableMen = () => {
       width: "220px",
     }}
   >
-    <Airmax/>
+    <Airmax height="118px" width="210px" marginLeft="8px" marginTop="25px"/>
     <MenTypography/>
-    <ShopNow/>
+    {children}
     </Box>
   );
 };
